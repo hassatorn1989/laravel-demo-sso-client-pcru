@@ -35,6 +35,7 @@ return [
         ],
     ],
 
+    // เพิ่ม keycloak ใน services
     'keycloak' => [
         'client_id' => env('KEYCLOAK_CLIENT_ID'),
         'client_secret' => env('KEYCLOAK_CLIENT_SECRET'),
